@@ -10,7 +10,7 @@ body {
     grid-template-rows: auto 1fr auto;
   }
   @font-face {
-    font-family: 'myFirstFont';
+    font-family: 'zolidaisFonts';
     src: url('fonts/Visual Hollow Serif.otf');
   }
   div {
@@ -21,19 +21,14 @@ body {
     color: #ebb800;
     padding: 1rem 0;
     text-align: center;
-    font-family: myFirstFont;
+    font-family: zolidaisFonts;
     min-height: 50px;
-  }
-  header h1 {
-    margin: 0;
   }
   .nav {
     box-sizing: border-box;
     display: flex;
     background-image: url(background/mxi-art-id0A-td1JBk-unsplash.jpg);
     background-size: cover;
-    padding: 0.5rem;
-    text-align: center;
     justify-content: center;
     align-items: center;
     position: sticky;
@@ -42,10 +37,9 @@ body {
   }
   .nav a {
     color: #f5ecb7;
-    font-family: myFirstFont;
+    font-family: zolidaisFonts;
     font-size: x-large;
     text-decoration: none;
-    margin: 0;
     padding: 0.7rem 0.9rem 0.75rem 0.9rem;
   }
   .nav > a:hover {
