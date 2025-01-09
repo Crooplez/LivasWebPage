@@ -28,11 +28,13 @@ header h1 {
     margin: 0;
 }
 nav {
+    box-sizing: border-box;
     background: #444;
     color: #fff;
     padding: 0.5rem;
     text-align: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
 }
 nav a {
