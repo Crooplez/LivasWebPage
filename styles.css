@@ -29,10 +29,13 @@ body {
   }
   .nav {
     box-sizing: border-box;
+    display: flex;
     background-image: url(background/mxi-art-id0A-td1JBk-unsplash.jpg);
     background-size: cover;
     padding: 0.5rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     position: sticky;
     top: 0;
     width: 100%;
@@ -40,13 +43,19 @@ body {
   .nav a {
     color: #f5ecb7;
     font-family: myFirstFont;
-    font-size: xx-large;
+    font-size: x-large;
     text-decoration: none;
     margin: 0;
     padding: 0.7rem 0.9rem 0.75rem 0.9rem;
   }
-  .nav > a:hover{
-    background-color:rgba(36, 36, 36, 0.203);
+  .nav > a:hover {
+    background-color:rgba(255, 255, 255, 0.1);
+  }
+  .navDivider {
+    width: 2px;
+    height: 40px;
+    vertical-align: text-bottom;
+    background-color: #f5ecb7;
   }
   .container {
     max-width: 1100px;
