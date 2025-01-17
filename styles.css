@@ -11,19 +11,20 @@ body {
   @font-face {
     font-family: 'zolidaisFonts';
     src: url('fonts/Visual Hollow Serif.otf');
-  }
+}
   @font-face {
     font-family: 'glaunaisFonts';
     src: url('fonts/Visual Hollow Script.otf');
-  }
+}
   @font-face {
     font-family: 'parastsTeksts';
-    src: url('fonts/SourceSansPro-Regular.otf');
+    src: url('fonts/Quicksand-Regular.ttf');
   }
-  div {
+div {
     font-family: parastsTeksts;
+    font-size: large;
   }
-  .nav {
+.nav {
     box-sizing: border-box;
     display: flex;
     background-image: url(background/mxi-art-id0A-td1JBk-unsplash.jpg);
@@ -35,28 +36,28 @@ body {
     width: 100%;
     margin-top: 9px;
   }
-  .nav a {
+.nav a {
     color: #f5ecb7;
     font-family: zolidaisFonts;
     font-size: x-large;
     text-decoration: none;
     padding: 0.7rem 0.9rem 0.75rem 0.9rem;
   }
-  .nav > a:hover {
+.nav > a:hover {
     background-color:rgba(255, 255, 255, 0.1);
   }
-  .navDivider {
+.navDivider {
     width: 2px;
     height: 40px;
     vertical-align: text-bottom;
     background-color: #f5ecb7;
   }
-  .container {
+.container {
     margin: auto;
     overflow: hidden;
     padding: 1rem;
   }
-  .mainTitle {
+.mainTitle {
     display: block;
     color: #f5ecb7;
     font-family: zolidaisFonts;
@@ -64,7 +65,7 @@ body {
     text-align: center;
     margin-top: 0vh;
   }
-  .subTitle {
+.subTitle {
     display: block;
     color: #f5ecb7;
     font-family: glaunaisFonts;
@@ -72,7 +73,7 @@ body {
     text-align: center;
     margin-top: -27vh;
   }
-  .profile, .journey, .contact {
+.profile, .journey, .contact {
     margin-bottom: 2rem;
     background: rgba(255, 255, 255, 0.5);
     padding: 1.5rem;
@@ -80,30 +81,30 @@ body {
     color: black;
     margin-top: 5rem
   }
-  .profile img {
+.profile img {
     width: 300px;
     display: block;
     margin: 0 auto 1rem;
   }
-  .journey ul {
+.journey ul {
     list-style: none;
     padding: 0;
   }
-  .journey li {
+.journey li {
     margin: 0.5rem 0;
     padding: 0.5rem;
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
   }
-  footer {
+footer {
     text-align: center;
     padding: 1rem;
     background: #333;
     color: #fff;
     margin-top: 2rem;
     height: 10px;
-  }
+}
 .myJourney {
   color: #f5ecb7;
   margin-left: 10vh;
@@ -112,7 +113,7 @@ table {
   text-align: left;
 }
 td {
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   padding-right: 40px;
 }
 .videoContainer {
@@ -125,6 +126,14 @@ th {
 }
 img {
   border: #f5ecb7;
-  border-width: 5px;
+  border-width: 2.5px;
   border-style: solid;
+}
+.video {
+  color: #f5ecb7;
+  margin-left: 10vh;
+  font-size: medium;
+}
+.video td {
+  padding-bottom: 50px;
 }
