@@ -115,3 +115,9 @@ body {
   font-family: zolidaisFonts;
   margin-left: 10vh;
 }
+table {
+  text-align: left;
+}
+tr>td {
+  padding-bottom: 2px;
+}
