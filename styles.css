@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: parastsTeksts;
     margin: 0;
     padding: 0;
     background-image: url(background/mxi-art-id0A-td1JBk-unsplash.jpg);
     background-size: cover;
     display: grid;
     grid-template-rows: auto auto auto;
+    row-gap: 20px;
 }
   @font-face {
     font-family: 'zolidaisFonts';
@@ -15,19 +16,12 @@ body {
     font-family: 'glaunaisFonts';
     src: url('fonts/Visual Hollow Script.otf');
   }
-  p {
-    margin: 0px;
+  @font-face {
+    font-family: 'parastsTeksts';
+    src: url('fonts/SourceSansPro-Regular.otf');
   }
   div {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  header {
-    background: #333;
-    color: #ebb800;
-    padding: 1rem 0;
-    text-align: center;
-    font-family: zolidaisFonts;
-    min-height: 50px;
+    font-family: parastsTeksts;
   }
   .nav {
     box-sizing: border-box;
@@ -68,7 +62,7 @@ body {
     font-family: zolidaisFonts;
     font-size: 18vh;
     text-align: center;
-    margin-top: 19vh;
+    margin-top: 0vh;
   }
   .subTitle {
     display: block;
@@ -76,6 +70,7 @@ body {
     font-family: glaunaisFonts;
     font-size: 10vh;
     text-align: center;
+    margin-top: -27vh;
   }
   .profile, .journey, .contact {
     margin-bottom: 2rem;
@@ -111,7 +106,6 @@ body {
   }
 .myJourney {
   color: #f5ecb7;
-  font-family: zolidaisFonts;
   margin-left: 10vh;
 }
 table {
@@ -120,4 +114,12 @@ table {
 td {
   padding-bottom: 2px;
   padding-right: 40px;
+}
+.videoContainer {
+  margin: auto;
+  width: 560px;
+  height: 315px;
+}
+th {
+  padding: 40px 0 10px;
 }
