@@ -123,3 +123,8 @@ td {
 th {
   padding: 40px 0 10px;
 }
+img {
+  border: #f5ecb7;
+  border-width: 5px;
+  border-style: solid;
+}
