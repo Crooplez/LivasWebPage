@@ -96,14 +96,6 @@ div {
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
-  }
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-    margin-top: 2rem;
-    height: 10px;
 }
 .myJourney {
   color: #f5ecb7;
@@ -136,4 +128,10 @@ img {
 }
 .video td {
   padding-bottom: 50px;
+}
+.smukaisVirsraksts{
+  font-family: glaunaisFonts;
+  font-size: 46px;
+  margin-bottom: -10px;
+  margin-top: -20px;
 }
