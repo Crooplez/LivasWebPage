@@ -56,7 +56,7 @@ div {
 .container {
     margin: auto;
     overflow: hidden;
-    padding: 1rem;
+    padding: 2rem;
 }
 .mainTitle {
     display: block;
@@ -81,11 +81,14 @@ div {
 table {
   text-align: left;
 }
-td {  
+.video td {  
   padding-bottom: 10px;
   padding-right: 40px;
+}
+.myJourney td {  
+  padding-bottom: 10px;
   overflow: visible;
-  position: relative;
+  vertical-align: top;
 }
 .videoContainer {
   margin: auto;
@@ -94,6 +97,7 @@ td {
 }
 th {
   padding: 40px 0 10px;
+  font-family: glaunaisFonts;
 }
 img {
   border: #f5ecb7;
