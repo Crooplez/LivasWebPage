@@ -96,8 +96,8 @@ table {
   height: 315px;
 }
 th {
-  padding: 40px 0 10px;
-  font-family: glaunaisFonts;
+  padding: 40px 0 15px;
+  font-size: 25px;
 }
 img {
   border: #f5ecb7;
