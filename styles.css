@@ -85,17 +85,6 @@ div {
     width: 300px;
     display: block;
     margin: 0 auto 1rem;
-  }
-.journey ul {
-    list-style: none;
-    padding: 0;
-  }
-.journey li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
 .myJourney {
   color: #f5ecb7;
@@ -134,4 +123,9 @@ img {
   font-size: 46px;
   margin-bottom: -10px;
   margin-top: -20px;
+}
+.photoTimeline{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
