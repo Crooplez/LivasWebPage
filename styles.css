@@ -35,6 +35,7 @@ div {
     top: 0;
     width: 100%;
     margin-top: 9px;
+    z-index: 100;
 }
 .nav a {
     color: #f5ecb7;
@@ -83,6 +84,8 @@ table {
 td {  
   padding-bottom: 10px;
   padding-right: 40px;
+  overflow: visible;
+  position: relative;
 }
 .videoContainer {
   margin: auto;
@@ -115,4 +118,5 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  position: absolute;
 }
