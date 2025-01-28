@@ -124,3 +124,16 @@ img {
   border-radius: 50%;
   position: absolute;
 }
+.icon {
+  border: 0;
+  height: 30px;
+  aspect-ratio: 1/1;
+}
+.myJourney a {
+  color: #f5ecb7;
+  margin-left: 10vh;
+  margin-left: 0;
+}
+.myJourney img {
+vertical-align: middle;
+}
